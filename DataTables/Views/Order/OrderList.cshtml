@@ -1,0 +1,90 @@
+﻿@model DataTable
+@using System.Data
+<style>
+    .table-wrapper {
+        max-width: 100%;
+        overflow-x: auto;
+        margin: 20px 0;
+        position: relative;
+    }
+
+        .table-wrapper::-webkit-scrollbar {
+            display: none;
+        }
+</style>
+<div class="row">
+
+    <h2 class="col-7">Orders List</h2>
+    @{
+        if (@TempData["Notification"] != null)
+        {
+            <p id="myElement" class="col text-danger bg-danger-subtle p-2 rounded">@TempData["Notification"]</p>
+        }
+        if (@TempData["Message"] != null)
+        {
+            <p id="myElement" class="col text-warning bg-warning-subtle p-2 rounded">@TempData["Message"]</p>
+        }
+    }
+</div>
+<hr />
+<a class="btn btn-info" asp-controller="Order" asp-action="AddEditOrder">Add Orders</a>
+<div class="table-wrapper">
+    <table class="table" style="white-space: nowrap;">
+    <thead>
+        <tr>
+            @* <th>OrderID</th> *@
+            <th>Order Number</th>
+            <th>Order Date</th>
+            @* <th>CustomerID</th> *@
+            <th>Customer Name</th>
+            <th>Payment Mode</th>
+            <th>Total Amount</th>
+            <th>Shipping Address</th>
+            <th>User Name</th>
+            <th colspan="2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (DataRow order in Model.Rows)
+            {
+                <tr>
+                    @*<td>@order["OrderID"]</td>*@
+                    <td>@order["OrderNumber"]</td>
+                    <td>@order["OrderDate"].ToString().Substring(0, 10)</td>
+                    @*<td>@order["CustomerID"]</td>*@
+                    <td>@order["CustomerName"]</td>
+                    <td>@order["PaymentMode"]</td>
+                    <td style="text-align:end; padding-right:15px">@order["TotalAmount"]</td>
+                    <td>@order["ShippingAddress"]</td>
+                    <td>@order["UserName"]</td>
+                    <td>
+                        <a asp-controller="Order" asp-action="AddEditOrder" asp-route-id = "@order["OrderID"]">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="bx bx-edit"></i>
+                            </button>
+                        </a>
+                    </td>
+                    <td>
+                        <form method="post" asp-controller="Order" asp-action="OrderDelete">
+                            <input type="hidden" name="OrderID" value="@order["OrderID"]" />
+                            <button onclick=" return confirm('Sure!! Are you want to delete @order["OrderNumber"]')" type="submit" class="btn btn-danger">
+                                <i class="bx bxs-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+</div>
+<script>
+    var element = document.getElementById("myElement");
+
+    element.style.display = "block";
+
+    setTimeout(() => {
+        element.style.display = "none";
+    }, 3500);
+</script>

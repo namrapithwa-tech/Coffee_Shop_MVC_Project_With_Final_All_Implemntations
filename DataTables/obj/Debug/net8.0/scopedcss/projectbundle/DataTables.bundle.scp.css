@@ -1,0 +1,49 @@
+/* _content/DataTables/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-plr3t4otiy] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-plr3t4otiy] {
+  color: #0077cc;
+}
+
+.btn-primary[b-plr3t4otiy] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-plr3t4otiy], .nav-pills .show > .nav-link[b-plr3t4otiy] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-plr3t4otiy] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-plr3t4otiy] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-plr3t4otiy] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-plr3t4otiy] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-plr3t4otiy] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

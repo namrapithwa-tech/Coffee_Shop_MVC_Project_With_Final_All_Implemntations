@@ -1,0 +1,81 @@
+﻿@model DataTables.Models.Coffee.OrderModel
+<div class="row">
+
+    <h1 class="col-7">@((Model?.OrderID > 0) ? "Edit" : "Add") Order</h1>
+    @{
+        if (@TempData["Message"] != null)
+        {
+            <p id="myElement" class="col text-success bg-success-subtle p-2 rounded">@TempData["Message"]</p>
+        }
+    }
+</div>
+<form asp-controller="Order" asp-action="SaveOrder">
+    @Html.HiddenFor(m => m.OrderID)
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="OrderDate">Order Date<span class="text-danger">*</span></label>
+        <input asp-for="OrderDate" class="form-control col" />
+        <span asp-validation-for="OrderDate" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="OrderNumber">Order Number<span class="text-danger">*</span></label>
+        <input asp-for="OrderNumber" class="form-control col" />
+        <span asp-validation-for="OrderNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="CustomerID">Customer ID<span class="text-danger">*</span></label>
+        <select class="form-control col" asp-for="CustomerID" asp-items="@(new SelectList(ViewBag.CustomerList, "CustomerID", "CustomerName"))">
+            <option value="" selected disabled>Select Customer</option>
+        </select>
+        <span asp-validation-for="CustomerID" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="PaymentMode">Payment Mode<span class="text-danger">*</span></label>
+        @*  <input asp-for="PaymentMode" class="form-control col" /> *@
+        <select asp-for="PaymentMode" class="form-control col">
+            <option value="" selected disabled>Select Payment Method</option>
+            <option value="Cash">Cash</option>
+            <option value="Cheque">Cheque</option>
+            <option value="UPI">UPI</option>
+            <option value="Net Banking">Net Banking</option>
+            <option value="Debit Card">Debit Card</option>
+            <option value="Credit Card">Credit Card</option>
+        </select>
+        <span asp-validation-for="PaymentMode" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="TotalAmount">Total Amount<span class="text-danger">*</span></label>
+        <input asp-for="TotalAmount" class="form-control col" />
+        <span asp-validation-for="TotalAmount" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="ShippingAddress">Shipping Address<span class="text-danger">*</span></label>
+        <textarea asp-for="ShippingAddress" class="form-control col" ></textarea>
+        <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="UserID">User ID<span class="text-danger">*</span></label>
+        <select class="form-control col" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+            <option value="" selected disabled>Select User</option>
+        </select>
+        <span asp-validation-for="UserID" class="text-danger"></span>
+    </div>
+    <div style="margin-left:190px">
+        <button type="submit" class=" btn @((Model?.OrderID > 0) ?  "btn-warning" :  "btn-primary")">@((Model?.OrderID > 0) ? "Edit" : "Add")</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+        <a class="btn btn-success" asp-controller="Order" asp-action="OrderList">Back</a>
+    </div>
+</form>
+<script>
+    var element = document.getElementById("myElement");
+
+    element.style.display = "block";
+
+    setTimeout(() => {
+        element.style.display = "none";
+    }, 3500);
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

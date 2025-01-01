@@ -1,0 +1,75 @@
+﻿@model DataTable
+@using System.Data
+<div class="row">
+
+    <h2 class="col-7">Order Details List</h2>
+    @{
+        if (@TempData["Notification"] != null)
+        {
+            <p id="myElement" class="col text-danger bg-danger-subtle p-2 rounded">@TempData["Notification"]</p>
+        }
+        if (@TempData["Message"] != null)
+        {
+            <p id="myElement" class="col text-warning bg-warning-subtle p-2 rounded">@TempData["Message"]</p>
+        }
+    }
+</div>
+<hr />
+<a class="btn btn-info" asp-controller="OrderDetails" asp-action="AddEditOrderDetail">Add Order Details</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            @* <th>Order Detail ID</th> *@
+            @* <th>Order ID</th> *@
+            <th>Order Number</th>
+            @* <th>Product ID</th> *@
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th style="padding-left:33px">Amount</th>
+            <th>Total Amount</th>
+            <th>User Name</th>
+            <th colspan="2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow orderDetail in Model.Rows)
+        {
+            <tr>
+                @* <td>@orderDetail["OrderDetailID"]</td> *@
+                @* <td>@orderDetail["OrderID"]</td> *@
+                <td>@orderDetail["OrderNumber"]</td>
+                @* <td>@orderDetail["ProductID"]</td> *@
+                <td>@orderDetail["ProductName"]</td>
+                <td>@orderDetail["Quantity"]</td>
+                <td style="text-align:end; padding-right:55px">@orderDetail["Amount"]</td>
+                <td style="text-align:end; padding-right:70px">@orderDetail["TotalAmount"]</td>
+                <td>@orderDetail["UserName"]</td>
+                <td>
+                    <a asp-controller="OrderDetails" asp-action="AddEditOrderDetail" asp-route-id = "@orderDetail["OrderDetailID"]">
+                        <button type="submit" class="btn btn-warning">
+                            <i class="bx bx-edit"></i>
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <form method="post" asp-controller="OrderDetails" asp-action="OrderDetailDelete">
+                        <input type="hidden" name="OrderDetailID" value="@orderDetail["OrderDetailID"]" />
+                    <button onclick=" return confirm('Sure!! Are you want to delete @orderDetail["OrderNumber"]')" type="submit" class="btn btn-danger">
+                            <i class="bx bxs-trash"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    var element = document.getElementById("myElement");
+
+    element.style.display = "block";
+
+    setTimeout(() => {
+        element.style.display = "none";
+    }, 3500);
+</script>

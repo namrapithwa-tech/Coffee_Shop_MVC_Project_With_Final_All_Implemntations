@@ -1,0 +1,80 @@
+﻿@model DataTables.Models.Coffee.CustomerModel
+<div class="row">
+
+    <h1 class="col-7">@((Model?.CustomerID > 0) ? "Edit" : "Add") Customer</h1>
+    @{
+        if (@TempData["Message"] != null)
+        {
+            <p id="myElement" class="col text-success bg-success-subtle p-2 rounded">@TempData["Message"]</p>
+        }
+    }
+</div>
+<form asp-controller="Customer" asp-action="SaveCustomer">
+    @Html.HiddenFor(m=>m.CustomerID)
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="CustomerName">Customer Name<span class="text-danger">*</span></label>
+        <input asp-for="CustomerName" class="form-control col" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="HomeAddress">Home Address<span class="text-danger">*</span></label>
+        <input asp-for="HomeAddress" class="form-control col" />
+        <span asp-validation-for="HomeAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="Email">Email<span class="text-danger">*</span></label>
+        <input asp-for="Email" class="form-control col" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="MobileNo">Mobile No<span class="text-danger">*</span></label>
+        <input type="text" asp-for="MobileNo" maxlength="10" class="form-control col" />
+        <span asp-validation-for="MobileNo" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="GSTNO">GST NO<span class="text-danger">*</span></label>
+        <input asp-for="GSTNO" class="form-control col" />
+        <span asp-validation-for="GSTNO" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="CityName">City Name<span class="text-danger">*</span></label>
+        <input asp-for="CityName" class="form-control col" />
+        <span asp-validation-for="CityName" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="PinCode">PinCode<span class="text-danger">*</span></label>
+        <input asp-for="PinCode" class="form-control col" />
+        <span asp-validation-for="PinCode" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="NetAmount">Net Amount<span class="text-danger">*</span></label>
+        <input asp-for="NetAmount" class="form-control col" />
+        <span asp-validation-for="NetAmount" class="text-danger"></span>
+    </div>
+    <div class="form-group row my-2">
+        <label class="col-2" asp-for="UserID">User ID<span class="text-danger">*</span></label>
+        <select class="form-control col" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+            <option value="" selected disabled>Select User</option>
+        </select>
+        <span asp-validation-for="UserID" class="text-danger"></span>
+    </div>
+    <div style="margin-left:190px">
+        <button type="submit" class=" btn @((Model?.CustomerID > 0) ?  "btn-warning" :  "btn-primary")">@((Model?.CustomerID > 0) ? "Edit" : "Add")</button>
+        <button type="reset" class="btn btn-secondary" >Reset</button>
+        <a class="btn btn-success" asp-controller="Customer" asp-action="CustomerList">Back</a>
+    </div>
+</form>
+<script>
+    var element = document.getElementById("myElement");
+
+    element.style.display = "block";
+
+    setTimeout(() => {
+        element.style.display = "none";
+    }, 3500);
+</script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
