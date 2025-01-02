@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\Coffee-Shop-Database-CRUD-main\\DataTables\\DataTables.csproj",
+      "projectUniqueName": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\NET_ALL_GIT_HUB\\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\\DataTables\\DataTables.csproj",
       "projectName": "DataTables",
-      "projectPath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\Coffee-Shop-Database-CRUD-main\\DataTables\\DataTables.csproj",
+      "projectPath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\NET_ALL_GIT_HUB\\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\\DataTables\\DataTables.csproj",
       "packagesPath": "C:\\Users\\namra\\.nuget\\packages\\",
-      "outputPath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\Coffee-Shop-Database-CRUD-main\\DataTables\\obj\\",
+      "outputPath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\NET_ALL_GIT_HUB\\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\\DataTables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

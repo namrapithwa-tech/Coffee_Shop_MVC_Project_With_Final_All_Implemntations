@@ -9,115 +9,115 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataTables
 build_property.RootNamespace = DataTables
-build_property.ProjectDir = D:\B.Tech All Sem Data\Sem-6(4)\ADV.NET\Coffee-Shop-Database-CRUD-main\DataTables\
+build_property.ProjectDir = D:\B.Tech All Sem Data\Sem-6(4)\ADV.NET\NET_ALL_GIT_HUB\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\DataTables\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\B.Tech All Sem Data\Sem-6(4)\ADV.NET\Coffee-Shop-Database-CRUD-main\DataTables
+build_property.MSBuildProjectDirectory = D:\B.Tech All Sem Data\Sem-6(4)\ADV.NET\NET_ALL_GIT_HUB\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\DataTables
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/AddEditCity.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/AddEditCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkRWRpdENpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Bills/AddEditBill.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Bills/AddEditBill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQWRkRWRpdEJpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Bills/BillsList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Bills/BillsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQmlsbHNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/City/AddEditCity.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/City/AddEditCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGRFZGl0Q2l0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/City/CityList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/City/CityList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDaXR5TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Customer/AddEditCustomer.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Customer/AddEditCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkRWRpdEN1c3RvbWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Customer/CustomerList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Customer/CustomerList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Home/Index.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Home/Privacy.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/OrderDetails/AddEditOrderDetail.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/OrderDetails/AddEditOrderDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEFkZEVkaXRPcmRlckRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/OrderDetails/OrderDetailsList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/OrderDetails/OrderDetailsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXE9yZGVyRGV0YWlsc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Order/AddEditOrder.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Order/AddEditOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkRWRpdE9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Order/OrderList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Order/OrderList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Product/AddEditProduct.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Product/AddEditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Product/ProductList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Product/ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Shared/Error.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Shared/_Layout_Login.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Shared/_Layout_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Shared/_Layout_Register.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Shared/_Layout_Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/User/AddEditUser.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/User/AddEditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/User/Login.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/User/Register.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/User/UserList.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/User/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/_ViewImports.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/_ViewStart.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/Coffee-Shop-Database-CRUD-main/DataTables/Views/Shared/_Layout.cshtml]
+[D:/B.Tech All Sem Data/Sem-6(4)/ADV.NET/NET_ALL_GIT_HUB/Coffee_Shop_MVC_Project_With_Final_All_Implemntations/DataTables/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-plr3t4otiy

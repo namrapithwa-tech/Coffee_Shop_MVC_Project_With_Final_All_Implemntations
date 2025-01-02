@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataTables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1626d560d26d6b94cd1b3aa3ceba9865d4ee233")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataTables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataTables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

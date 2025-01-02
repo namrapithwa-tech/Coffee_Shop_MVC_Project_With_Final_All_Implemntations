@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5motdRNqcg=",
+  "dgSpecHash": "UIMt7ZPTlcc=",
   "success": true,
-  "projectFilePath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\Coffee-Shop-Database-CRUD-main\\DataTables\\DataTables.csproj",
+  "projectFilePath": "D:\\B.Tech All Sem Data\\Sem-6(4)\\ADV.NET\\NET_ALL_GIT_HUB\\Coffee_Shop_MVC_Project_With_Final_All_Implemntations\\DataTables\\DataTables.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namra\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\namra\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
